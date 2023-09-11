@@ -9,7 +9,7 @@ Description of notebooks:
 
 - **Clustering_Method_Graphs**: This plots graphs of PDIS and IS, using the factorisation learned from the clustering approach, against PDIS/IS with other factorisations based on action features. It also plots the estiamation bias of the former factorisation for different levels of policy divergence, and plots policy approximation error graphs.
 
-- **NN_Based_Factor_Optimisation**: This trains neural networks to map (s,a) pairs or ($\pi_b(s,a)$, $\pi_e(s,a)$, $r(s,a)$) to their corresponding set of policy and reward factors.
+- **NN_Based_Factor_Optimisation**: This trains neural networks to map (s,a) pairs or ($\pi_b(s,a)$, $\pi_e(s,a)$, $r(s,a)$) to their corresponding set of policy and reward factors. This file contains the learning curve graphs.
 
 - **Test_NN_Factors**: This tests different models trained to perform the neural network mapping approach on various data sets and plots graphs.
 
