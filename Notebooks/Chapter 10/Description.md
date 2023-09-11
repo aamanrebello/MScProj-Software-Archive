@@ -12,4 +12,4 @@ These are saved neural network mapping models (PyTorch models):
 - **Model 5**: Assumes $D=4$, maps ($\pi_b$, $\pi_e$, r) triplet to factored policies and reward.
 
 
-Order of performance in general Model 4 $\approx$ Model 5 $>$ Model 3 $>$ Model 1 $\approx$ Model 2
+Order of performance in general: Model 4 $\approx$ Model 5 $>$ Model 3 $>$ Model 1 $\approx$ Model 2
