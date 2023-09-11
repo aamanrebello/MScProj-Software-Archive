@@ -6,7 +6,7 @@ Mathematical derivations were performed in the following scratchpad OverLeaf doc
 The repo is arranged as follows:
 
 - **Top Level**: 
-Contains Python files used to run useful functions, which may also be used in the notebooks that implement experiments:
+Contains Python files used to run useful functions, which may also be used in the notebooks that implement experiments. Note that the experiment Jupyter notebooks in **./Notebooks** do not refer to this code but instead clone a [public repo](https://github.com/ai4ai-lab/Factored-Action-Spaces-for-OPE) which contains the exact same code files. Hence the notebooks can be run on their own in Google Colab, and have no dependencies.
 
     - *policy_estimators.py*: Contains implementations of IS, PDIS, PDWIS and their factored (decomposed) equivalents. Also contains an on-policy estimator. All estimators functions have similar interfaces.
 
