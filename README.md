@@ -1,5 +1,6 @@
-# Leveraging Factored Action Spaces for Off-Policy Evaluation - MSc Project Software Archive
+# Aaman Rebello (apr1718, 01488753) - MSc Project Software Archive
 
+(Project title not written to prevent search conflicts with [this repo](https://github.com/ai4ai-lab/Factored-Action-Spaces-for-OPE))
 
 Mathematical derivations were performed in the following scratchpad OverLeaf document: https://www.overleaf.com/read/hmxmjtkftvhv
 
