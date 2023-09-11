@@ -8,7 +8,7 @@ The repo is arranged as follows:
 - **Top Level**: 
 Contains Python files used to run useful functions, which may also be used in the notebooks that implement experiments:
 
-    - *policy_estimators.py*: Contains implementations of IS, PDIS, PDWIS and their non-factored equivalents. Also contains an on-policy estimator.
+    - *policy_estimators.py*: Contains implementations of IS, PDIS, PDWIS and their factored (decomposed) equivalents. Also contains an on-policy estimator. All estimators functions have similar interfaces.
 
     - *load_discrete_MDP.py*:  Loads MDP 1 or MDP 2 into memory, based on information in **./configs**. After loading, various MDP-related information is stored in variables e.g. non-factored and factored rewards, non-factored and factored policies, state abstraction-state mappings etc.
 
